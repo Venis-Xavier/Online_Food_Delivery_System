@@ -1,0 +1,79 @@
+
+/**
+ * Input Styles
+ */
+
+ 
+ /*=============================================
+ =              Input basic styles             =
+ =============================================*/
+ 
+input{
+    padding: 10px 15px;
+    color: #1a1a1a;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+}
+
+input::placeholder {
+    color: #3f3f3f;
+}
+ 
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+ 
+.no-inc::-webkit-inner-spin-button,
+.no-inc[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.bordered{
+    border: 1px solid #007bff;
+    padding: 7px;
+}
+
+ /*=============================================
+ =              Input state styles             =
+ =============================================*/
+ 
+input:focus {
+    outline: none;
+    /* border-color: #007bff; */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input:disabled {
+    background-color: #f0f0f0;
+    border-color: #ddd;
+    color: #888;
+    cursor: not-allowed;
+}
+
+input.error {
+    border-color: #dc3545;
+}
+
+
+
+ /*=============================================
+ =              Responsive Design              =
+ =============================================*/
+ 
+@media (max-width: 480px) {
+    input {
+      width: 100%;
+    }
+}
+ 
+
+ 

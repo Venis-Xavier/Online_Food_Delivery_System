@@ -1,0 +1,72 @@
+/* Bill Details */
+.bill-details-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: fadeInUp 0.4s ease-out 0.2s;
+  }
+  
+  h4 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .bill-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    padding: 5px 0;
+  }
+  
+  .bill-amount {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    animation: slideInRight 0.3s ease-out;
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .bill-row.total-row {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ff7f50;
+    margin-top: 15px;
+    border-top: 1px solid #ff7f50;
+    padding-top: 10px;
+  }
+ 
+  .checkout-button {
+    background: linear-gradient(90deg, #ff7f50, #ff6347);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-button:hover {
+    transform: scale(1.005);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .checkout-button:active {
+    transform: scale(1);
+  }

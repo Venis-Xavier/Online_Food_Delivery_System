@@ -1,0 +1,32 @@
+#root{
+  min-height: 100vh;
+}
+
+body{
+  background: linear-gradient(45deg, #eee3ff 0%, #d3c3e2 100%);
+  /* background-color: #cec3e297; */
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.portal-content{
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+ 
+.vertical{
+  flex-direction: column;
+}
+
+.h-100{
+  height: 100%;
+}

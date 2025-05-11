@@ -1,0 +1,37 @@
+
+/**
+ * Button Styles
+ */
+
+ 
+ /*=============================================
+ =             Button basic styles             =
+ =============================================*/
+ 
+ button {
+    background-color: #6d4014;
+    color: white;
+    padding: 6px 36px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+ 
+
+ /*=============================================
+ =             Button state styles             =
+ =============================================*/
+  
+button:hover {
+  background-color: #895226;
+  }
+
+
+ /*=============================================
+ =              Responsive Design              =
+ =============================================*/
+ 
+ 
+

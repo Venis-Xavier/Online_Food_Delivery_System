@@ -1,0 +1,140 @@
+.cart-screen {
+  padding: 20px;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Restaurant Header */
+.restaurant-header {
+  background: linear-gradient(90deg, #ff7f50, #ff6347);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: slideInDown 0.5s ease-out;
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.restaurant-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Cart Items */
+
+
+/* Empty Cart */
+.empty-cart {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.5s ease-out;
+}
+
+.empty-cart p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Suggestions */
+.suggestion-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  animation: scaleIn 0.4s ease-out;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.suggestion-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.suggestion-input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: none;
+  height: 80px;
+  transition: border-color 0.3s ease;
+}
+
+.suggestion-input:focus {
+  border-color: #ff7f50;
+  outline: none;
+}
+
+/* Delivery Options */
+.delivery-options-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  animation: scaleIn 0.4s ease-out 0.1s;
+}
+
+.delivery-toggle .form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  font-size: 1rem;
+  color: #333;
+  margin-left: 10px;
+}
+
+.form-check-input:checked {
+  background-color: #ff7f50;
+  border-color: #ff7f50;
+}
+
+.delivery-note {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 10px;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-out 0.2s forwards;
+}
+

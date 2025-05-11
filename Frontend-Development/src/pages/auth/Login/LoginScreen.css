@@ -1,0 +1,28 @@
+.login-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/bgImg6.jpg');
+    background-size: cover;
+}
+
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 12px;
+    /* border: 1px solid rgb(205, 199, 199); */
+}
+
+a{
+    color: #04223a;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #073860;
+}
+    

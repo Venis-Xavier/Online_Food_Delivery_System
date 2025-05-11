@@ -1,0 +1,42 @@
+
+/**
+ * Select Styles
+ */
+
+ 
+ /*=============================================
+ =             Select basic styles             =
+ =============================================*/
+ 
+select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+    color: #1a1a1a;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+ 
+
+ /*=============================================
+ =             Select state styles             =
+ =============================================*/
+ 
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+ /*=============================================
+ =              Responsive Design              =
+ =============================================*/
+ 
+ 
+
+ 

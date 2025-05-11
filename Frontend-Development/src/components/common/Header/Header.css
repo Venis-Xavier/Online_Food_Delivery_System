@@ -1,0 +1,58 @@
+
+/**
+ * Header Styles
+ */
+
+ 
+ /*=============================================
+ =             Header basic styles             =
+ =============================================*/
+ 
+.header {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    color: black;
+    padding: 10px;
+    min-height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 100px;
+    z-index: 998;
+  }
+ 
+.header .row {
+    margin: 0;
+}
+
+.header h4 {
+    margin-bottom: 0;
+}
+
+.header .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header strong {
+    height: 100%;
+}
+ 
+ /*=============================================
+ =             Header state styles             =
+ =============================================*/
+ 
+ .header nav a:hover {
+    color: #3498db;
+  }
+
+ /*=============================================
+ =              Responsive Design              =
+ =============================================*/
+ 
+ 
+
+ 
